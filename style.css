@@ -1,0 +1,95 @@
+  .contenedor {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  padding: 3%;
+  background-color: #FF8A65;
+  justify-content: center;
+}
+
+.contenedor nav {
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+nav a {
+  color: white;
+  width: 10%;
+}
+
+.imagenes {
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  width: 96%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagen {
+  display: flex;
+  width: 20%;
+  height: 100px;
+  border: 4px solid;
+  border-color: #FF8A65;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-self: center;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+span {
+  position: absolute;
+  top: auto;
+  width: 3%;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  background-color: #FF8A65;
+
+}
+
+.cuerpo {
+  display: flex;
+  background-color: brown;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.botones button {
+  display: flex;
+  width: 18%;
+  align-items: center;
+  margin: 1%;
+  background-color: #a52a2a;
+  border-radius: 8%;
+  border-color: #FFCDD2;
+  color: white;
+  text-align: center;
+}
+.parrafos{
+  display: flex;
+  flex-direction: column;
+}
+.parrafos div{
+  display: inline-flex;
+  margin: 5% 5% 2% 5%;
+  border: 2px solid;
+  border-color: coral;
+}
+.parrafos p{
+  margin: 2%;
+  color: white;
+
+}

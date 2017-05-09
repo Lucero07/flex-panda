@@ -17,20 +17,20 @@ var borrarTexto2 = document.getElementById('borrarTexto2');
 
 var parrafos = document.getElementsByTagName('p');
 borrarTexto1.addEventListener('click',function () {
-    if(parrafos[0].style.display == "none"){
-      parrafos[0].style.display = 'flex';
+    if(parrafos[0].style.visibility == "hidden"){
+      parrafos[0].style.visibility = 'visible';
 
     }else{
-      parrafos[0].style.display = 'none';
+      parrafos[0].style.visibility= 'hidden';
     }
 
 });
 borrarTexto2.addEventListener('click',function () {
-if(parrafos[1].style.display == "none"){
-  parrafos[1].style.display = 'flex';
+if(parrafos[1].style.visibility == "hidden"){
+  parrafos[1].style.visibility = 'visible';
 
 }else{
-  parrafos[1].style.display = 'none';
+  parrafos[1].style.visibility= 'hidden';
 }
 
 });
